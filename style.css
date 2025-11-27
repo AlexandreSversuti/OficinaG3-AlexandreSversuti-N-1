@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+header {
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+h1 {
+  font-size: 20;
+  color: rgb(0, 0, 0);
+  margin-right: 30px;
+  text-align: center;
+}
+
+p {
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGi-PtW8Yqj79ASv3aPQg_No9c0NrBHwopighjS0xFwcmSDtSRIMn6rReE_CIqnyJ4iHm1Q6T2oXT0fNRQ3vKgjadcWHY0gOifoxbG8KXC0CnD4IzDqoE7WKwjd8wovzmDEcx6A7kaKdivRjmBc7qqEBo8PgWHCtfBohAP7dXnpHQWg2EuIC5sFgXttYMK/s861/-%20FOTO%20MIDIACRISTA.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  padding-left: 10px;
+}
